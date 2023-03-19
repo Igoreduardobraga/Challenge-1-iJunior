@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+p{
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    padding-top: 9vh;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    padding-bottom: 9vh;
+    width: 100%;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+}
+
+/* top bar  */
+
+nav{
+    overflow: hidden;
+    width: 100%;
+}
+
+nav .logo{
+    float: left;
+    display: block;
+}
+
+nav a{
+    color: hsl(240, 100%, 5%);
+    float: right;
+    display: block;
+    padding: 14px 30px;
+}
+
+nav a:hover{
+    transition: 0.5s;
+    color: hsl(5, 85%, 63%);
+}
+
+/* middle site  */
+
+.main-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-center{
+    margin-top: 3%;
+    width: 100%;
+}
+
+.content-left{
+    display: flex;
+}
+
+.content-left h1{
+    max-width: 15vw;
+    font-weight: 800;
+    font-size: 50px;
+    color: hsl(240, 100%, 5%);
+}
+
+.content-left .text{
+    margin-top: 48px;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-read{
+    margin-top: 30px;
+    padding: 20px;
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.btn-read:hover{
+    cursor: pointer;
+    background-color: hsl(240, 100%, 5%);
+    transition: 0.5s;
+}
+
+.main-right{
+    background-color: hsl(240, 100%, 5%);
+    margin-left: 50px;
+    padding: 10px 30px;
+    max-width: 20vw;
+}
+
+.main-right div{
+    margin-bottom: 60px;
+}
+
+.main-right h1{
+    color: hsl(35, 77%, 62%);
+    font-size: 50px;
+}
+
+.partition-1, .partition-2{
+    border-bottom: 1px hsl(236, 13%, 42%) solid;
+}
+
+.main-right p, .main-right a{
+    color: hsl(36, 100%, 99%);
+}
+
+.main-right a:hover{
+    color: hsl(35, 77%, 62%);
+    transition: 0.5s;
+}
+
+.main-center{
+    display: flex;
+}
+
+/* baixo */
+
+.cards{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.card-single{
+    display: flex;
+}
+
+.card-text{
+    margin-left: 20px;
+}
+
+.card-text h1{
+    color: hsl(233, 8%, 79%);
+    font-size: 35px;
+    margin: 0;
+}
+
+.card-text h2{
+    color: hsl(236, 13%, 42%);
+    margin: 2px;
+}
+
+.card-single img{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+.card-single a{
+    color: hsl(240, 100%, 5%);
+}
+
+.card-single a:hover{
+    color: hsl(5, 85%, 63%);
+    transition: 0.5s;
+}
