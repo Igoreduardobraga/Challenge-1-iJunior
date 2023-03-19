@@ -183,3 +183,7 @@ nav a:hover{
     color: hsl(5, 85%, 63%);
     transition: 0.5s;
 }
+
+.attribution{
+    margin-top: 150px;
+}
